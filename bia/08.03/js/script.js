@@ -6,7 +6,7 @@ function log (){
     let login = document.form.login.value;
     let senha = document.form.senha.value;
 
-    if (login == "admin" && senha == "admin" ) {
+    if (login == "rodrigo" && senha == "gostoso" ) {
         fechar();
     }
     else{
