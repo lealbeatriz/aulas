@@ -12,42 +12,39 @@
     <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card" style="width: 100%;">
-                <img src="7" class="card-img-top" alt="tipo de corte">
+            <div class="card" style="width: 55%;">
+                <img src="img/corteTesoura.jpg" class="card-img-top" alt="tipo de corte">
                 <div class="card-body">
                   <select class="form-select" aria-label="Default select example" onchange="calcularserviço()">
                     <option value="corte com tesoura">corte com tesoura- R$60,00</option>
                     <option value="corte com máquina">corte com máquina - R$45,00</option>
                     <option value="corte com tesoura e máquina">corte com tesoura e máquina - R$52,00</option>
                   </select>
-                  <input type="number" class="form-control textcenter" value="0" min="0" max="9"onchange="calcularserviço()">
                 </div>
-              </div>
+            </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 100%;">
-                <img src="7" class="card-img-top" alt="modelo barba">
+            <div class="card" style="width: 18%;">
+                <img src="img/barbaSimples.png" class="card-img-top" alt="modelo barba">
                 <div class="card-body">
                   <select class="form-select" aria-label="Default select example" onchange="calcularserviço()">
                     <option value="simples">simples - R$30,00</option>
                     <option value="modelada">modelada - R$45,00</option>
                   </select>
-                  <input type="number" class="form-control textcenter" value="0" min="0" max="9"onchange="calcularserviço()">
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 100%;">
-                <img src="7" class="card-img-top" alt="modelo de depilação">
+            <div class="card" style="width: 18%;">
+                <img src="img/depilacao.jpg" class="card-img-top" alt="modelo de depilação">
                 <div class="card-body">
                   <select class="form-select" aria-label="Default select example" onchange="calcularpedido()">
                     <option value="cera quente">cera quente - R$300,00</option>
                     <option value="cera fria">cera fria - R$250,00</option>
                     <option value="laser">laser - R$850,00</option>
                   </select>
-                  <input type="number" class="form-control textcenter" value="0" min="0" max="9"onchange="calcularpedido()">
                 </div>
               </div>
             </div>
@@ -55,7 +52,7 @@
         </div>
       </div>
      <div class="col">
-       <div class="card" style="width: 100%;">
+       <div class="card" style="width: 55%;">
              <div class="card-body">
               <h5 class="card-title form-control btn-danger textcenter">Total dos serviços</h5>
               <h3 class="text-center">R$ <output id="Total">0.00</output></h3>
@@ -65,6 +62,6 @@
          </div>
      </div>
      </div>
-     <script src="js/scrip.js"></script>
+          <script src="js/script.js"></script>
 </body>
 </html>

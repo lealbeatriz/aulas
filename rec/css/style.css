@@ -1,7 +1,36 @@
 body{
     text-align: center;
+    margin:0cm;
+    background-image: url(../img/fundo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(219, 162, 5);
+    padding: 1em;
+    max-width: 100%;
+    min-height: 55em;
 }
 
+header{
+    height: 250px;
+    background-color:rgba(110, 110, 110, 0);
+    background-image: url();
+    background-size: 100% 100%;
+    color: rgb(247, 248, 248);
+    height: 13em;
+    max-width: 10%;
+    padding: 2em;
+    text-align: left;
+    font-weight: 10;
+} 
 .card img{
     height: 250px;
+    background-color:rgba(110, 110, 110, 0);
+    background-image: url();
+    background-size: 100% 100%;
+    color: rgb(247, 248, 248);
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: left;
+    font-weight: 400;
 } 
